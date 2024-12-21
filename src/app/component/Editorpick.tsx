@@ -79,7 +79,7 @@ const Editorpick = () => {
     <div className="bg-gray-50 py-16">
       <div className="container mx-auto text-center px-6 lg:px-12">
         {/* Heading Section */}
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">Editor's Pick</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">Editor&apos;s Pick</h2>
         <p className="text-gray-600 mb-8">
           Problem trying to resolve the conflict between
         </p>
