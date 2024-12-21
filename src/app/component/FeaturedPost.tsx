@@ -1,6 +1,6 @@
 
 
-
+import Image from 'next/image';
 import React from 'react';
 
 const FeaturedPost = () => {
@@ -10,17 +10,18 @@ const FeaturedPost = () => {
       title: "Loudest a la Madison #1 (L`Integral)",
       description:
         "We focus on regonomics and meeting you where you work. It's only a keystroke away.",
-      img: "f1.png",
+      img: "/f1.png",
       date: "22 April 2021",
       comments: 10,
       tag: "NEW",
+      
     },
     {
       id: 2,
       title: "Loudest a la Madison #1 (L`Integral)",
       description:
         "We focus on regonomics and meeting you where you work. It's only a keystroke away.",
-      img: "f2.png",
+      img: "/f2.png",
       date: "22 April 2021",
       comments: 10,
       tag: "Trending",
@@ -30,7 +31,7 @@ const FeaturedPost = () => {
       title: "Loudest a la Madison #1 (L`Integral)",
       description:
         "We focus on regonomics and meeting you where you work. It's only a keystroke away.",
-      img: "f3.png",
+      img: "/f3.png",
       date: "22 April 2021",
       comments: 10,
       tag: "HOT",
@@ -57,11 +58,15 @@ const FeaturedPost = () => {
           >
             {/* Image with Tag */}
             <div className="relative">
-              <img
+              <Image
                 src={post.img}
                 alt={post.title}
                 className="w-full h-40 object-cover"
-              />
+                width={100}
+                height={100}
+              ></Image>
+
+              
               <span
                 className="absolute top-2 left-2 bg-red-500 text-white text-sm font-bold px-2 py-1 rounded"
               >

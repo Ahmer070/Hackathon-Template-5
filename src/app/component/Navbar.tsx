@@ -2,7 +2,6 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import ShopPage from "../Shoppage";
 import { FiSearch, FiShoppingCart, FiMenu, FiX } from "react-icons/fi";
 
 const Navbar = () => {
@@ -36,25 +35,25 @@ const Navbar = () => {
             {isShopDropdownOpen && (
               <div className="absolute top-8 left-0 bg-white shadow-md rounded-md py-2 w-48 z-10">
                 <Link
-                  href="../ShopPage"
+                  href="#"
                   className="block px-4 py-2 text-gray-600 hover:text-blue-500 hover:bg-gray-100"
                 >
                   All Products
                 </Link>
                 <Link
-                  href="../ShopPage"
+                  href="#"
                   className="block px-4 py-2 text-gray-600 hover:text-blue-500 hover:bg-gray-100"
                 >
                   Category 1
                 </Link>
                 <Link
-                  href="../ShopPage"
+                  href="#"
                   className="block px-4 py-2 text-gray-600 hover:text-blue-500 hover:bg-gray-100"
                 >
                   Category 2
                 </Link>
                 <Link
-                  href="../ShopPage"
+                  href="#"
                   className="block px-4 py-2 text-gray-600 hover:text-blue-500 hover:bg-gray-100"
                 >
                   Category 3
@@ -109,16 +108,16 @@ const Navbar = () => {
               Shop
             </summary>
             <div className="pl-4">
-              <Link href="../ShopPage" className="block text-gray-600 hover:text-blue-500 py-1">
+              <Link href="#" className="block text-gray-600 hover:text-blue-500 py-1">
                 All Products
               </Link>
-              <Link href="./shop/category1" className="block text-gray-600 hover:text-blue-500 py-1">
+              <Link href="#" className="block text-gray-600 hover:text-blue-500 py-1">
                 Category 1
               </Link>
-              <Link href="./shop/category2" className="block text-gray-600 hover:text-blue-500 py-1">
+              <Link href="#" className="block text-gray-600 hover:text-blue-500 py-1">
                 Category 2
               </Link>
-              <Link href="./shop/category3" className="block text-gray-600 hover:text-blue-500 py-1">
+              <Link href="#" className="block text-gray-600 hover:text-blue-500 py-1">
                 Category 3
               </Link>
             </div>

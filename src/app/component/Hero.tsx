@@ -1,37 +1,3 @@
-// // components/HeroSection.tsx
-// import Image from "next/image";
-
-// export default function HeroSection() {
-//   return (
-//     <section className="bg-blue-400 py-12 px-6">
-//       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center">
-//         {/* Left Content */}
-//         <div className="md:w-1/2 text-center md:text-left">
-//           <p className="text-sm text-gray-200 uppercase">Summer 2020</p>
-//           <h1 className="text-5xl font-bold text-white mb-4">NEW COLLECTION</h1>
-//           <p className="text-gray-300 mb-6">
-//             We know how large objects will act, but things on a small scale.
-//           </p>
-//           <button className="bg-green-500 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 transition">
-//             SHOP NOW
-//           </button>
-//         </div>
-
-//         {/* Right Content - Image */}
-//         <div className="md:w-1/2 flex justify-center">
-//           <Image
-//             src="/main.png" // Replace with your image path
-//             alt="Shopping Girl"
-//             width={500}
-//             height={500}
-//             className="w-full h-auto object-cover"
-//             priority
-//           />
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
 
 
 import React from 'react'
